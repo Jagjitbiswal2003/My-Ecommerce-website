@@ -1,0 +1,23 @@
+@media(max-width:425px){
+    .image-icon .cart-icon{
+      top:2.2rem;
+      right: 10rem;
+    }
+     .image-icon .cart-count{
+      top: 1.5rem;
+      right: 9.5rem;
+     }
+  }
+  
+  @media(max-width:320px){
+    .image-icon .cart-icon{
+      top:1.5rem;
+      left: 2rem;
+      font-size: 35px;
+    }
+     .image-icon .cart-count{
+      top: 1.6rem;
+      right: 15.2rem;
+     }
+  }
+  

@@ -1,0 +1,141 @@
+:root {
+    --darkbgcolor: #1e1e1ec6;
+  }
+
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.modechange{
+    display: flex;
+    position: absolute;
+    right:180px;
+    top:29px;
+   
+}
+
+.modechange svg{
+    font-size: 22px;
+    padding:7px;
+    padding-left: 11px;
+    padding-right: 11px;
+   
+}
+.modechange button{
+    background-color: gray;
+    opacity: 1;
+    border-radius: 20px;
+    border-color: gray;
+    border-style: solid;
+}
+
+.Lightmode {
+    background-color: white;
+    color:black;
+}
+
+.Darkmode {
+    background-color:var(--darkbgcolor);
+    color: white;
+}
+.Darkmode .navi ul li a{
+    color:white;
+}
+ /* Style for Signin page in darkmode */
+
+body.Darkmode .signin-container {
+    color: white; /* Light text */
+}
+
+body.Darkmode .signin-box {
+    background-color:var(--darkbgcolor);
+    border:3px solid whitesmoke;
+    border-radius: 15px;
+}
+
+body.Darkmode .toggle-password {
+    color:black; 
+}
+.Darkmode .signin-container h2{
+    color:white;
+}
+
+body.Darkmode label {
+    color: #ccc; 
+}
+
+.Darkmode input{
+    color: black;
+}
+
+/* end */
+
+/* About Coustomer section */
+.Darkmode .customer-reviews h2{
+    color:black;
+}
+
+.Darkmode .cus-name{
+    color: black;
+}
+
+
+/*End */
+
+.Darkmode h3{
+    color: black;
+}
+
+.Darkmode .cat label{
+    color: black;
+}
+.Darkmode .carty svg{
+color: #ccc;
+}
+.Darkmode .my-icon{
+    background-color: black;
+    color: white;
+}
+
+/* Contact Section */
+
+.Darkmode .sub-para p{
+    color:white;
+}
+
+.Darkmode #contact p{
+    color: white;
+}
+.Darkmode .info h5 ,
+.Darkmode .info a{
+    color:white;
+}
+
+.category-selection h2{
+   color: black;
+  }
+.category-selection1 h2{
+    color: black;
+}
+
+/*cart page */
+.Darkmode .cart-page h2{
+    color:black;
+}
+
+@media (max-width: 768px){
+    .modechange{
+        top:29px;
+        right: 145px;
+       }
+}
+
+@media (max-width: 426px) {
+   .modechange{
+    top:30px;
+    right: 85px;
+   }
+   .modechange svg{
+    font-size: 19px;
+   }
+}
