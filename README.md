@@ -39,7 +39,7 @@ ProductPage: ![ProductPage](./screenshots/ProductPage.png)
 CartSection: ![CartSection](./screenshots/CartSection.png)
 contactPage: ![contactPage](./screenshots/contactPage.png)
 Footer: ![Footer](./screenshots/Footer.png)
-LoginPage: ![LoginPage](./screenshorts/LoginPage.png)
+LoginPage: ![LoginPage](./screenshots/LoginPage.png)
 SignUpPage: ![SignUpPage](./screenshots/SignUpPage.png)
 🌐 Website Preview :
 
